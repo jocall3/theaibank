@@ -6,8 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    // Only use GitHub Pages base in production
-    base: mode === 'production' ? '/THE_AI_ENCYCLOPEDIA/' : '/',
+    base: '/theaibank/',   
 
     server: {
       port: 3000,
